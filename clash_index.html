@@ -1,133 +1,118 @@
+
 <!DOCTYPE html>
-<html lang="zh">
+<!-- saved from url=(0111)https://wang.bazhongying.asia/5.html?bd=1242545yipt4tig?assdfqsf=ewv08ywe89vgsdpovhjdsvsdf2e80f20fyiogveisdovc/ -->
+<html lang="en">
+
 <head>
-    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clash推广页</title>
+    <title>请等待5秒</title>
     <style>
-        /* 基本样式 */
         body {
             font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f5f5f5;
-            color: #333;
-        }
-
-        header {
-            background-color: #007bff;
-            padding: 20px;
-            color: white;
-            text-align: center;
-        }
-
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
-        }
-
-        /* 主体内容区域 */
-        .container {
-            padding: 40px 20px;
-            text-align: center;
-        }
-
-        .features {
             display: flex;
             justify-content: center;
-            gap: 30px;
-            margin: 30px 0;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f3f3;
         }
 
-        .feature {
-            background-color: white;
-            border-radius: 10px;
-            padding: 20px;
-            width: 250px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        .feature img {
-            width: 60px;
-            margin-bottom: 10px;
-        }
-
-        .feature h3 {
-            font-size: 1.5em;
-            margin-bottom: 10px;
-        }
-
-        .cta-button {
-            background-color: #28a745;
-            color: white;
-            padding: 15px 30px;
-            font-size: 1.2em;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            text-decoration: none;
-        }
-
-        .cta-button:hover {
-            background-color: #218838;
-        }
-
-        /* 页脚 */
-        footer {
-            background-color: #333;
-            color: white;
+        .shield-container {
             text-align: center;
-            padding: 10px 0;
-            font-size: 0.9em;
+            padding: 20px;
+            border: 1px solid #ccc;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        footer a {
-            color: #007bff;
-            text-decoration: none;
+        .countdown {
+            font-size: 24px;
+            margin: 20px 0;
+        }
+    </style>
+    <style>
+        #ai_assistant .popver[refresh]::after {
+            content: "刷新";
         }
 
-        footer a:hover {
-            text-decoration: underline;
+        #ai_assistant .popver[copy]::after {
+            content: "undefined";
+        }
+
+        #ai_assistant .popver[expandSidebar]::after {
+            content: "undefined";
+        }
+
+        #ai_assistant .popver[setting]::after {
+            content: "undefined";
+        }
+    </style>
+    <style>
+        #clip_copy,
+        #web-copy-btn-wk {
+            background: #215476 !important
+        }
+    </style>
+
+    <style>
+        .option-head a {
+            color: #215476 !important;
+        }
+
+        #option .hostList .list-group a {
+            color: #215476 !important;
+        }
+
+        #popup .copy .tips.success {
+            color: #215476 !important;
+        }
+
+        #popup .option svg path {
+            fill: #215476 !important;
         }
     </style>
 </head>
+
 <body>
-
-<header>
-    <h1>Clash - 极速连接，超低延迟</h1>
-    <p>加入我们，体验全球最快的网络加速服务</p>
-</header>
-
-<div class="container">
-    <h2>为什么选择Clash?</h2>
-    <p>突破地域限制，享受流畅无阻的互联网体验！</p>
-
-    <!-- 特性展示 -->
-    <div class="features">
-        <div class="feature">
-            <img src="Clash_Logo.png" alt="速度">
-            <h3>极速连接</h3>
-            <p>享受全球极速网络，畅玩游戏、观看视频不再卡顿。</p>
-        </div>
-        <div class="feature">
-            <img src="Clash_Logo.png" alt="安全">
-            <h3>全程加密</h3>
-            <p>保护您的在线隐私，确保数据传输的安全性。</p>
-        </div>
-        <div class="feature">
-            <img src="Clash_Logo.png" alt="稳定">
-            <h3>稳定连接</h3>
-            <p>在高负载网络环境下仍能保持稳定的连接质量。</p>
-        </div>
+    <div class="shield-container">
+        <h1>请稍候...</h1>
+        <p>我们正在检查您的访问。这通常只需要几秒钟。</p>
+        <div class="countdown" id="countdown">15</div>
+        <p>如果等待时间过长，请<a href="./clash_index.html">点击这里</a>。</p>
+        <!-- <p>如果等待时间过长，请<a href="https://wang.bazhongying.asia/index.html">点击这里</a>。</p> -->
     </div>
 
-    <!-- 行动号召按钮 -->
-    <a href="https://hgvisdhugd48se5dsf.s3.ap-east-1.amazonaws.com/Clash.for.Windows.msi" class="cta-button">立即下载</a>
-</div>
+    <script>
+        // 设置倒计时时间（秒）
+        var countdownTime = 15;
+        var countdownElement = document.getElementById('countdown');
 
-<footer>
-    <p>&copy; 2026 Clash Inc. | <a href="#">隐私政策</a> | <a href="#">使用条款</a></p>
-</footer>
+        // 更新倒计时显示
+        var countdownInterval = setInterval(function () {
+            countdownTime--;
+            countdownElement.textContent = countdownTime;
 
+            if (countdownTime <= 0) {
+                clearInterval(countdownInterval);
+                // 跳转到目标页面
+                window.location.href = 'index.html';
+            }
+        }, 1000);
+    </script>
+
+    <!-- 同时使用meta刷新作为备用方案（如果JavaScript被禁用） -->
+    <noscript>
+        <meta http-equiv="refresh" content="5;url=index.html">
+    </noscript>
+    <script defer="" src="./请等待5秒_files/vcd15cbe7772f49c399c6a5babf22c1241717689176015"
+        integrity="sha512-ZpsOmlRQV6y907TI0dKBHq9Md29nnaEIPlkf84rnaERnq6zvWvPUqr2ft8M1aS28oN72PdrCzSjY4U6VaAw1EQ=="
+        data-cf-beacon="{&quot;version&quot;:&quot;2024.11.0&quot;,&quot;token&quot;:&quot;1a7c2adec67a45e987902b69401c25c9&quot;,&quot;server_timing&quot;:{&quot;name&quot;:{&quot;cfCacheStatus&quot;:true,&quot;cfEdge&quot;:true,&quot;cfExtPri&quot;:true,&quot;cfL4&quot;:true,&quot;cfOrigin&quot;:true,&quot;cfSpeedBrain&quot;:true},&quot;location_startswith&quot;:null}}"
+        crossorigin="anonymous"></script>
+
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v8c78df7c7c0f484497ecbca7046644da1771523124516" integrity="sha512-8DS7rgIrAmghBFwoOTujcf6D9rXvH8xm8JQ1Ja01h9QX8EzXldiszufYa4IFfKdLUKTTrnSFXLDkUEOTrZQ8Qg==" data-cf-beacon='{"version":"2024.11.0","token":"1a7c2adec67a45e987902b69401c25c9","server_timing":{"name":{"cfCacheStatus":true,"cfEdge":true,"cfExtPri":true,"cfL4":true,"cfOrigin":true,"cfSpeedBrain":true},"location_startswith":null}}' crossorigin="anonymous"></script>
 </body>
+
 </html>
